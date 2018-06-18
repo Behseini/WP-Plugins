@@ -1,7 +1,7 @@
 <?php 
 /* 
   Template Name: Test Ajax 
-*/
+*/ 
 ?>
 <?php wp_head(); ?>
 
