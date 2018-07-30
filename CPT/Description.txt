@@ -1,4 +1,4 @@
-Building Custom Post Types
+Custom Post Types
 Custom Post Types enable you to create your own types of content in addition to those WordPress builts in already provides, which are:
 
   ■ Post
@@ -19,3 +19,12 @@ For that post type’s archive listing, this would be the hierarchy:
   ■ 1. archive-product.php
   ■ 2. archive.php
   ■ 3. index.php
+  
+ - Building Custom Post Types
+ A- Registering ustom Post Type
+  To create a custom post type, you use the register_post_type() function, which has the following parameters:
+
+  <?php register_post_type( $post_type, $args ) ?>
+  
+  The first parameter $post_type is the Post type key which we will use it later in wp loop
+
