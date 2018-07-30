@@ -1,0 +1,9 @@
+Building Custom Post Types
+Custom Post Types enable you to create your own types of content in addition to those WordPress builts in already provides, which are:
+
+■ Post
+■ Page
+■ Attachment
+■ Link
+■ Revision
+■ Navigation Menu
