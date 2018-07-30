@@ -1,9 +1,21 @@
 Building Custom Post Types
 Custom Post Types enable you to create your own types of content in addition to those WordPress builts in already provides, which are:
 
-■ Post
-■ Page
-■ Attachment
-■ Link
-■ Revision
-■ Navigation Menu
+  ■ Post
+  ■ Page
+  ■ Attachment
+  ■ Link
+  ■ Revision
+  ■ Navigation Menu
+
+Custom post types are displayed using one of the following template files, in order of precedence. For example,
+for a single post of the post type product, the hierarchy would be as follows:
+
+  ■ 1. single-product.php
+  ■ 2. single.php
+  ■ 3. index.php
+  
+For that post type’s archive listing, this would be the hierarchy:
+  ■ 1. archive-product.php
+  ■ 2. archive.php
+  ■ 3. index.php
