@@ -26,5 +26,10 @@ For that post type’s archive listing, this would be the hierarchy:
 
   <?php register_post_type( $post_type, $args ) ?>
   
-  The first parameter $post_type is the Post type key which we will use it later in wp loop
+  The first parameter $post_type is the Post type key which we will use it later in wp loop, arcgiving, and single post page
+  
+    ■ single-$post_type.php
+  
+  
+The $post_type is required string data type parameter and must not exceed 20 characters and may only contain lowercase alphanumeric characters, dashes, and underscores.
 
