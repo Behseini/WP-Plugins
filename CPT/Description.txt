@@ -33,3 +33,12 @@ For that post type’s archive listing, this would be the hierarchy:
   
 The $post_type is required string data type parameter and must not exceed 20 characters and may only contain lowercase alphanumeric characters, dashes, and underscores.
 
+
+Non-hierarchical (Post-like) Content Types 
+Hierarchical (Page-like) Content Types 
+
+
+
+Taxonomy
+Non-hierarchical (Tag-like) Taxonomies
+Hierarchical (Category-like) Taxonomies
