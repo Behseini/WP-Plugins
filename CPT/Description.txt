@@ -33,11 +33,12 @@ For that post type’s archive listing, this would be the hierarchy:
   
 The $post_type is required string data type parameter and must not exceed 20 characters and may only contain lowercase alphanumeric characters, dashes, and underscores.
 
-
+CPT
 Non-hierarchical (Post-like) Content Types 
 Hierarchical (Page-like) Content Types 
 
-
+Does'nt make sense to have a parent movie or eyeglasses that contains children that are also movies or eyglass? 
+classifying the type of movie with a category or custom taxonomy makes more sense, to me. But that could be considered my opinion.
 
 Taxonomy
 Non-hierarchical (Tag-like) Taxonomies
